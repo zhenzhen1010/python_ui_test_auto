@@ -8,3 +8,6 @@ report_path = pathlib.Path(__file__).parent.parent / "allure_report"
 
 # 截图路径处理
 screenshot_path = pathlib.Path(__file__).parent.parent / "screenshot"
+
+# 头像路径
+avatar_path = pathlib.Path(__file__).parent.parent / "data" / "baidu.png"

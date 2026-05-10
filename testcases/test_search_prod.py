@@ -18,7 +18,8 @@ def test_search_prod_case(page):
     # 1.点击首页的登录链接,调用首页页面对象的方法
     HomePage(page).click_login_link_method()
     # 2.完成登录页面的登录操作
-    LoginPage(page).login_method(config.data["username"], config.data[""])
+    LoginPage(page).login_method(config.data["username"], config.data["password"])
+    page.wait_for_timeout(500)
     # 3.调用搜索方法进行搜索
     HomePage(page).search_prod_method("真皮圆筒包")
     page.wait_for_timeout(2000)
