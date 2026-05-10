@@ -1,0 +1,6 @@
+# 测试环境
+
+base_url: "http://mall.lemonban.com:3344/"
+
+username: "lemon_python"
+password: "12345678"

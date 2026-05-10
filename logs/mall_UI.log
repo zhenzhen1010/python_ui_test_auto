@@ -1,0 +1,394 @@
+2026-05-08 09:56:40.064 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-08 09:56:40.065 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:56:40.133 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//a[text()="登录"]------------
+2026-05-08 09:56:40.133 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-08 09:56:40.133 | INFO     | common.basepage:fill_text:40 - ----------start 进入方法fill_text-------------
+2026-05-08 09:56:40.150 | INFO     | common.basepage:fill_text:47 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-08 09:56:40.151 | INFO     | common.basepage:fill_text:40 - ----------start 进入方法fill_text-------------
+2026-05-08 09:56:40.186 | INFO     | common.basepage:fill_text:47 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-08 09:56:40.187 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:56:40.222 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-08 09:56:41.242 | INFO     | pageobject.homepage:open_user_center_method:44 - ------start 点击打开的个人中心页面------
+2026-05-08 09:56:41.243 | INFO     | pageobject.homepage:open_user_center_method:45 - 点击元素//span[text()="个人中心"]
+2026-05-08 09:56:41.243 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:56:41.320 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//span[text()="个人中心"]------------
+2026-05-08 09:56:41.825 | INFO     | pageobject.homepage:open_user_center_method:48 - ------end 点击打开的个人中心页面------
+2026-05-08 09:56:41.825 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:56:41.877 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//div[@class="portrait-box"]------------
+2026-05-08 09:56:41.877 | INFO     | common.basepage:upload_file:106 - ----------start 进入方法upload_file-------------
+2026-05-08 09:56:41.886 | INFO     | common.basepage:upload_file:108 - 监听页面file变更弹窗：<playwright._impl._sync_base.EventInfo object at 0x0000012150C5C590>
+2026-05-08 09:56:42.738 | INFO     | common.basepage:upload_file:112 - 设置files：E:\python\py_UI自动化\data\baidu.png
+2026-05-08 09:56:43.241 | INFO     | common.basepage:upload_file:114 - ----------end 执行完成 upload_file-------------
+2026-05-08 09:56:43.752 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:56:43.770 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//a[text()="保存账户信息"]------------
+2026-05-08 09:56:43.770 | INFO     | common.basepage:assert_ele_visible:118 - ----------start 进入方法assert_ele_visible-------------
+2026-05-08 09:56:43.770 | INFO     | common.basepage:assert_ele_visible:129 - 判断元素.el-message__content是否可见
+2026-05-08 09:56:44.135 | INFO     | common.basepage:assert_ele_visible:132 - -------assert_ele_visible 断言通过-----------
+2026-05-08 09:56:51.098 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-08 09:56:51.098 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:56:51.189 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//a[text()="登录"]------------
+2026-05-08 09:56:51.189 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-08 09:56:51.189 | INFO     | common.basepage:fill_text:40 - ----------start 进入方法fill_text-------------
+2026-05-08 09:56:51.203 | INFO     | common.basepage:fill_text:47 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-08 09:56:51.204 | INFO     | common.basepage:fill_text:40 - ----------start 进入方法fill_text-------------
+2026-05-08 09:56:51.223 | INFO     | common.basepage:fill_text:47 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-08 09:56:51.223 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:56:51.278 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-08 09:56:51.796 | INFO     | pageobject.homepage:assert_welcome_visible_method:52 - ------start 断言欢迎语可见方法------
+2026-05-08 09:56:51.797 | INFO     | pageobject.homepage:assert_welcome_visible_method:53 - 定位元素：//span[text()="欢迎来到柠檬班"]
+2026-05-08 09:56:51.797 | INFO     | common.basepage:assert_ele_visible:118 - ----------start 进入方法assert_ele_visible-------------
+2026-05-08 09:56:51.797 | INFO     | common.basepage:assert_ele_visible:129 - 判断元素//span[text()="欢迎来到柠檬班"]是否可见
+2026-05-08 09:56:52.429 | INFO     | common.basepage:assert_ele_visible:132 - -------assert_ele_visible 断言通过-----------
+2026-05-08 09:56:52.429 | INFO     | pageobject.homepage:assert_welcome_visible_method:55 - ------end 断言欢迎语可见------
+2026-05-08 09:56:52.430 | INFO     | pageobject.homepage:assert_uname_contain_method:59 - ------start 断言用户名正确------
+2026-05-08 09:56:52.430 | INFO     | pageobject.homepage:assert_uname_contain_method:60 - 定位元素：//a[@class="link-name"],比较text：lemon_python
+2026-05-08 09:56:52.430 | INFO     | common.basepage:assert_ele_contain:139 - ----------start 进入方法assert_ele_contain-------------
+2026-05-08 09:56:52.434 | INFO     | common.basepage:assert_ele_contain:151 - 判断远元素//a[@class="link-name"]，是否包含lemon_python信息
+2026-05-08 09:56:52.440 | INFO     | common.basepage:assert_ele_contain:155 - -------assert_ele_contain 断言通过-----------
+2026-05-08 09:56:52.440 | INFO     | pageobject.homepage:assert_uname_contain_method:62 - ------end 断言用户名正确------
+2026-05-08 09:57:05.615 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-08 09:57:05.616 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:57:05.697 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//a[text()="登录"]------------
+2026-05-08 09:57:05.697 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-08 09:57:05.697 | INFO     | common.basepage:fill_text:40 - ----------start 进入方法fill_text-------------
+2026-05-08 09:57:05.708 | INFO     | common.basepage:fill_text:47 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-08 09:57:05.708 | INFO     | common.basepage:fill_text:40 - ----------start 进入方法fill_text-------------
+2026-05-08 09:57:05.721 | INFO     | common.basepage:fill_text:47 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-08 09:57:05.726 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:57:05.779 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-08 09:57:06.284 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-08 09:57:06.284 | INFO     | common.basepage:fill_text:40 - ----------start 进入方法fill_text-------------
+2026-05-08 09:57:06.387 | INFO     | common.basepage:fill_text:47 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-08 09:57:06.387 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品真皮圆筒包
+2026-05-08 09:57:06.387 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-08 09:57:06.387 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:57:06.439 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-08 09:57:06.439 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-08 09:57:18.587 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-08 09:57:18.587 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:57:18.658 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//a[text()="登录"]------------
+2026-05-08 09:57:18.659 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-08 09:57:18.659 | INFO     | common.basepage:fill_text:40 - ----------start 进入方法fill_text-------------
+2026-05-08 09:57:18.671 | INFO     | common.basepage:fill_text:47 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-08 09:57:18.671 | INFO     | common.basepage:fill_text:40 - ----------start 进入方法fill_text-------------
+2026-05-08 09:57:18.686 | INFO     | common.basepage:fill_text:47 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-08 09:57:18.686 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:57:18.733 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-08 09:57:19.743 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-08 09:57:19.743 | INFO     | common.basepage:fill_text:40 - ----------start 进入方法fill_text-------------
+2026-05-08 09:57:19.781 | INFO     | common.basepage:fill_text:47 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-08 09:57:19.781 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品圆筒包
+2026-05-08 09:57:19.781 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-08 09:57:19.781 | INFO     | common.basepage:click_ele:29 - ----------start 进入方法click_ele-------------
+2026-05-08 09:57:19.821 | INFO     | common.basepage:click_ele:36 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-08 09:57:19.821 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-08 09:57:20.824 | INFO     | common.basepage:assert_ele_contain:139 - ----------start 进入方法assert_ele_contain-------------
+2026-05-08 09:57:20.833 | INFO     | common.basepage:assert_ele_contain:151 - 判断远元素//div[@class="goods-name"]，是否包含圆筒包信息
+2026-05-08 09:57:20.843 | INFO     | common.basepage:assert_ele_contain:155 - -------assert_ele_contain 断言通过-----------
+2026-05-08 09:57:20.851 | INFO     | common.basepage:assert_ele_contain:155 - -------assert_ele_contain 断言通过-----------
+2026-05-09 10:28:02.563 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 10:28:02.565 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 10:28:02.670 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 10:28:02.671 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 10:28:02.671 | INFO     | common.basepage:fill_text:46 - ----------start 进入方法fill_text-------------
+2026-05-09 10:28:02.695 | INFO     | common.basepage:fill_text:53 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 10:28:02.695 | INFO     | common.basepage:fill_text:46 - ----------start 进入方法fill_text-------------
+2026-05-09 10:28:02.734 | INFO     | common.basepage:fill_text:53 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 10:28:02.735 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 10:28:02.775 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 10:28:03.279 | INFO     | pageobject.homepage:assert_welcome_visible_method:52 - ------start 断言欢迎语可见方法------
+2026-05-09 10:28:03.279 | INFO     | pageobject.homepage:assert_welcome_visible_method:53 - 定位元素：//span[text()="欢迎来到柠檬班"]
+2026-05-09 10:28:03.279 | INFO     | common.basepage:assert_ele_visible:124 - ----------start 进入方法assert_ele_visible-------------
+2026-05-09 10:28:03.280 | INFO     | common.basepage:assert_ele_visible:136 - 判断元素//span[text()="欢迎来到柠檬班"]是否可见
+2026-05-09 10:28:03.334 | INFO     | common.basepage:assert_ele_visible:139 - -------assert_ele_visible 断言通过-----------
+2026-05-09 10:28:03.334 | INFO     | pageobject.homepage:assert_welcome_visible_method:55 - ------end 断言欢迎语可见------
+2026-05-09 10:28:03.334 | INFO     | pageobject.homepage:assert_uname_contain_method:59 - ------start 断言用户名正确------
+2026-05-09 10:28:03.334 | INFO     | pageobject.homepage:assert_uname_contain_method:60 - 定位元素：//a[@class="link-name"],比较text：lemon_python
+2026-05-09 10:28:03.334 | INFO     | common.basepage:assert_ele_contain:147 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 10:28:03.334 | INFO     | common.basepage:assert_ele_contain:160 - 判断远元素//a[@class="link-name"]，是否包含lemon_python信息
+2026-05-09 10:28:03.349 | INFO     | common.basepage:assert_ele_contain:164 - -------assert_ele_contain 断言通过-----------
+2026-05-09 10:28:03.349 | INFO     | pageobject.homepage:assert_uname_contain_method:62 - ------end 断言用户名正确------
+2026-05-09 10:33:59.715 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 10:33:59.715 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 10:33:59.808 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 10:33:59.808 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 10:33:59.808 | INFO     | common.basepage:fill_text:46 - ----------start 进入方法fill_text-------------
+2026-05-09 10:33:59.843 | INFO     | common.basepage:fill_text:53 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 10:33:59.843 | INFO     | common.basepage:fill_text:46 - ----------start 进入方法fill_text-------------
+2026-05-09 10:33:59.856 | INFO     | common.basepage:fill_text:53 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 10:33:59.856 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 10:33:59.911 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 10:34:00.416 | INFO     | pageobject.homepage:assert_welcome_visible_method:52 - ------start 断言欢迎语可见方法------
+2026-05-09 10:34:00.416 | INFO     | pageobject.homepage:assert_welcome_visible_method:53 - 定位元素：//span[text()="欢迎来到柠檬班"]
+2026-05-09 10:34:00.416 | INFO     | common.basepage:assert_ele_visible:124 - ----------start 进入方法assert_ele_visible-------------
+2026-05-09 10:34:00.416 | INFO     | common.basepage:assert_ele_visible:136 - 判断元素//span[text()="欢迎来到柠檬班"]是否可见
+2026-05-09 10:34:00.460 | INFO     | common.basepage:assert_ele_visible:139 - -------assert_ele_visible 断言通过-----------
+2026-05-09 10:34:00.460 | INFO     | pageobject.homepage:assert_welcome_visible_method:55 - ------end 断言欢迎语可见------
+2026-05-09 10:34:00.460 | INFO     | pageobject.homepage:assert_uname_contain_method:59 - ------start 断言用户名正确------
+2026-05-09 10:34:00.460 | INFO     | pageobject.homepage:assert_uname_contain_method:60 - 定位元素：//a[@class="link-name"],比较text：lemon_python
+2026-05-09 10:34:00.460 | INFO     | common.basepage:assert_ele_contain:147 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 10:34:00.468 | INFO     | common.basepage:assert_ele_contain:160 - 判断远元素//a[@class="link-name"]，是否包含lemon_python信息
+2026-05-09 10:34:00.476 | INFO     | common.basepage:assert_ele_contain:164 - -------assert_ele_contain 断言通过-----------
+2026-05-09 10:34:00.476 | INFO     | pageobject.homepage:assert_uname_contain_method:62 - ------end 断言用户名正确------
+2026-05-09 10:48:07.430 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 10:48:07.430 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 10:48:07.496 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 10:48:07.496 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 10:48:07.496 | INFO     | common.basepage:fill_text:46 - ----------start 进入方法fill_text-------------
+2026-05-09 10:48:07.511 | INFO     | common.basepage:fill_text:53 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 10:48:07.511 | INFO     | common.basepage:fill_text:46 - ----------start 进入方法fill_text-------------
+2026-05-09 10:48:07.542 | INFO     | common.basepage:fill_text:53 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 10:48:07.542 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 10:48:07.629 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 10:48:08.132 | INFO     | pageobject.homepage:assert_welcome_visible_method:52 - ------start 断言欢迎语可见方法------
+2026-05-09 10:48:08.132 | INFO     | pageobject.homepage:assert_welcome_visible_method:53 - 定位元素：//span[text()="欢迎来到柠檬班"]
+2026-05-09 10:48:08.133 | INFO     | common.basepage:assert_ele_visible:124 - ----------start 进入方法assert_ele_visible-------------
+2026-05-09 10:48:08.133 | INFO     | common.basepage:assert_ele_visible:136 - 判断元素//span[text()="欢迎来到柠檬班"]是否可见
+2026-05-09 10:48:08.152 | INFO     | common.basepage:assert_ele_visible:139 - -------assert_ele_visible 断言通过-----------
+2026-05-09 10:48:08.152 | INFO     | pageobject.homepage:assert_welcome_visible_method:55 - ------end 断言欢迎语可见------
+2026-05-09 10:48:08.152 | INFO     | pageobject.homepage:assert_uname_contain_method:59 - ------start 断言用户名正确------
+2026-05-09 10:48:08.152 | INFO     | pageobject.homepage:assert_uname_contain_method:60 - 定位元素：//a[@class="link-name"],比较text：lemon_python
+2026-05-09 10:48:08.152 | INFO     | common.basepage:assert_ele_contain:147 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 10:48:08.158 | INFO     | common.basepage:assert_ele_contain:160 - 判断远元素//a[@class="link-name"]，是否包含lemon_python信息
+2026-05-09 10:48:08.159 | INFO     | common.basepage:assert_ele_contain:164 - -------assert_ele_contain 断言通过-----------
+2026-05-09 10:48:08.159 | INFO     | pageobject.homepage:assert_uname_contain_method:62 - ------end 断言用户名正确------
+2026-05-09 11:36:58.129 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 11:36:58.134 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 11:36:58.255 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 11:36:58.255 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 11:36:58.255 | INFO     | common.basepage:fill_text:46 - ----------start 进入方法fill_text-------------
+2026-05-09 11:36:58.293 | INFO     | common.basepage:fill_text:53 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 11:36:58.293 | INFO     | common.basepage:fill_text:46 - ----------start 进入方法fill_text-------------
+2026-05-09 11:36:58.347 | INFO     | common.basepage:fill_text:53 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 11:36:58.347 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 11:36:58.418 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 11:36:58.922 | INFO     | pageobject.homepage:assert_welcome_visible_method:52 - ------start 断言欢迎语可见方法------
+2026-05-09 11:36:58.922 | INFO     | pageobject.homepage:assert_welcome_visible_method:53 - 定位元素：//span[text()="欢迎来到柠檬班"]
+2026-05-09 11:36:58.922 | INFO     | common.basepage:assert_ele_visible:124 - ----------start 进入方法assert_ele_visible-------------
+2026-05-09 11:36:58.922 | INFO     | common.basepage:assert_ele_visible:136 - 判断元素//span[text()="欢迎来到柠檬班"]是否可见
+2026-05-09 11:36:58.955 | INFO     | common.basepage:assert_ele_visible:139 - -------assert_ele_visible 断言通过-----------
+2026-05-09 11:36:58.956 | INFO     | pageobject.homepage:assert_welcome_visible_method:55 - ------end 断言欢迎语可见------
+2026-05-09 11:36:58.956 | INFO     | pageobject.homepage:assert_uname_contain_method:59 - ------start 断言用户名正确------
+2026-05-09 11:36:58.956 | INFO     | pageobject.homepage:assert_uname_contain_method:60 - 定位元素：//a[@class="link-name"],比较text：lemon_python
+2026-05-09 11:36:58.956 | INFO     | common.basepage:assert_ele_contain:147 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 11:36:58.961 | INFO     | common.basepage:assert_ele_contain:160 - 判断远元素//a[@class="link-name"]，是否包含lemon_python信息
+2026-05-09 11:36:58.961 | INFO     | common.basepage:assert_ele_contain:164 - -------assert_ele_contain 断言通过-----------
+2026-05-09 11:36:58.961 | INFO     | pageobject.homepage:assert_uname_contain_method:62 - ------end 断言用户名正确------
+2026-05-09 11:38:55.046 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 11:38:55.046 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 11:38:55.132 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 11:38:55.132 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 11:38:55.146 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 11:38:55.181 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 11:38:55.181 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 11:38:55.221 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 11:38:55.723 | INFO     | pageobject.homepage:assert_welcome_visible_method:52 - ------start 断言欢迎语可见方法------
+2026-05-09 11:38:55.723 | INFO     | pageobject.homepage:assert_welcome_visible_method:53 - 定位元素：//span[text()="欢迎来到柠檬班"]
+2026-05-09 11:38:55.723 | INFO     | common.basepage:assert_ele_visible:125 - ----------start 进入方法assert_ele_visible-------------
+2026-05-09 11:38:55.724 | INFO     | common.basepage:assert_ele_visible:137 - 判断元素//span[text()="欢迎来到柠檬班"]是否可见
+2026-05-09 11:38:55.746 | INFO     | common.basepage:assert_ele_visible:140 - -------assert_ele_visible 断言通过-----------
+2026-05-09 11:38:55.746 | INFO     | pageobject.homepage:assert_welcome_visible_method:55 - ------end 断言欢迎语可见------
+2026-05-09 11:38:55.746 | INFO     | pageobject.homepage:assert_uname_contain_method:59 - ------start 断言用户名正确------
+2026-05-09 11:38:55.746 | INFO     | pageobject.homepage:assert_uname_contain_method:60 - 定位元素：//a[@class="link-name"],比较text：lemon_python
+2026-05-09 11:38:55.746 | INFO     | common.basepage:assert_ele_contain:148 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 11:38:55.746 | INFO     | common.basepage:assert_ele_contain:161 - 判断远元素//a[@class="link-name"]，是否包含lemon_python信息
+2026-05-09 11:38:55.763 | INFO     | common.basepage:assert_ele_contain:165 - -------assert_ele_contain 断言通过-----------
+2026-05-09 11:38:55.763 | INFO     | pageobject.homepage:assert_uname_contain_method:62 - ------end 断言用户名正确------
+2026-05-09 11:59:09.658 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 11:59:09.658 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 11:59:09.758 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 11:59:09.758 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 11:59:09.758 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 11:59:09.773 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 11:59:09.773 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 11:59:09.806 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 11:59:09.806 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 11:59:09.867 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 11:59:10.881 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-09 11:59:10.881 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 11:59:10.925 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-09 11:59:10.925 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品圆筒包
+2026-05-09 11:59:10.925 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-09 11:59:10.925 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 11:59:10.966 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-09 11:59:10.966 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-09 11:59:11.970 | INFO     | common.basepage:assert_ele_contain:149 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 11:59:11.987 | INFO     | common.basepage:assert_ele_contain:162 - 判断远元素//div[@class="goods-name"]，是否包含圆筒包信息
+2026-05-09 11:59:12.005 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 11:59:12.005 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:06:55.802 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 15:06:55.809 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:06:55.894 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 15:06:55.894 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 15:06:55.894 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:06:55.913 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 15:06:55.913 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:06:55.923 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 15:06:55.923 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:06:55.980 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 15:06:56.996 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-09 15:06:56.996 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:06:57.022 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-09 15:06:57.022 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品圆筒包
+2026-05-09 15:06:57.022 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-09 15:06:57.022 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:06:57.108 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-09 15:06:57.109 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-09 15:06:58.121 | INFO     | common.basepage:assert_ele_contain:149 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 15:06:58.163 | INFO     | common.basepage:assert_ele_contain:162 - 判断远元素//div[@class="goods-name"]，是否包含圆筒包信息
+2026-05-09 15:06:58.178 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:06:58.181 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:08:17.377 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 15:08:17.378 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:08:17.481 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 15:08:17.481 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 15:08:17.481 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:08:17.495 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 15:08:17.495 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:08:17.529 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 15:08:17.529 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:08:17.588 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 15:08:18.602 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-09 15:08:18.602 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:08:18.612 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-09 15:08:18.612 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品圆筒包
+2026-05-09 15:08:18.612 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-09 15:08:18.612 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:08:18.672 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-09 15:08:18.672 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-09 15:08:19.675 | INFO     | common.basepage:assert_ele_contain:149 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 15:08:19.687 | INFO     | common.basepage:assert_ele_contain:162 - 判断远元素//div[@class="goods-name"]，是否包含圆筒包信息
+2026-05-09 15:08:19.701 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:08:19.709 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:09:51.371 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 15:09:51.372 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:09:51.434 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 15:09:51.435 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 15:09:51.435 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:09:51.459 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 15:09:51.459 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:09:51.466 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 15:09:51.466 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:09:51.522 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 15:09:52.547 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-09 15:09:52.547 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:09:52.566 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-09 15:09:52.566 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品圆筒包
+2026-05-09 15:09:52.566 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-09 15:09:52.566 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:09:52.644 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-09 15:09:52.644 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-09 15:09:53.657 | INFO     | common.basepage:assert_ele_contain:149 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 15:09:53.666 | INFO     | common.basepage:assert_ele_contain:162 - 判断远元素//div[@class="goods-name"]，是否包含圆筒包信息
+2026-05-09 15:09:53.677 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:09:53.681 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:11:34.170 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 15:11:34.170 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:11:34.239 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 15:11:34.240 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 15:11:34.240 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:11:34.258 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 15:11:34.258 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:11:34.270 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 15:11:34.270 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:11:34.328 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 15:11:35.345 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-09 15:11:35.345 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:11:35.369 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-09 15:11:35.369 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品圆筒包
+2026-05-09 15:11:35.369 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-09 15:11:35.369 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:11:35.429 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-09 15:11:35.430 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-09 15:11:36.435 | INFO     | common.basepage:assert_ele_contain:149 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 15:11:36.435 | INFO     | common.basepage:assert_ele_contain:162 - 判断远元素//div[@class="goods-name"]，是否包含圆筒包信息
+2026-05-09 15:11:36.462 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:11:36.470 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:11:54.529 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 15:11:54.529 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:11:54.620 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 15:11:54.620 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 15:11:54.620 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:11:54.646 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 15:11:54.646 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:11:54.650 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 15:11:54.650 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:11:54.709 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 15:11:55.725 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-09 15:11:55.725 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:11:55.761 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-09 15:11:55.761 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品圆筒包
+2026-05-09 15:11:55.761 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-09 15:11:55.761 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:11:55.812 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-09 15:11:55.813 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-09 15:11:56.825 | INFO     | common.basepage:assert_ele_contain:149 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 15:11:56.849 | INFO     | common.basepage:assert_ele_contain:162 - 判断远元素//div[@class="goods-name"]，是否包含圆筒包信息
+2026-05-09 15:11:56.862 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:11:56.866 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:13:44.101 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 15:13:44.101 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:13:44.188 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 15:13:44.188 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 15:13:44.188 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:13:44.204 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 15:13:44.205 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:13:44.238 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 15:13:44.238 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:13:44.295 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 15:13:45.310 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-09 15:13:45.310 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:13:45.336 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-09 15:13:45.336 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品圆筒包
+2026-05-09 15:13:45.336 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-09 15:13:45.336 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:13:45.386 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-09 15:13:45.386 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-09 15:13:46.400 | INFO     | common.basepage:assert_ele_contain:149 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 15:13:46.403 | INFO     | common.basepage:assert_ele_contain:162 - 判断远元素//div[@class="goods-name"]，是否包含圆筒包信息
+2026-05-09 15:13:46.423 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:13:46.429 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:14:40.488 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 15:14:40.489 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:14:40.592 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 15:14:40.592 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 15:14:40.592 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:14:40.617 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 15:14:40.617 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:14:40.655 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 15:14:40.655 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:14:40.711 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 15:14:41.728 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-09 15:14:41.728 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:14:41.750 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-09 15:14:41.750 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品圆筒包
+2026-05-09 15:14:41.750 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-09 15:14:41.750 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:14:41.804 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-09 15:14:41.804 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-09 15:14:42.812 | INFO     | common.basepage:assert_ele_contain:149 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 15:14:42.834 | INFO     | common.basepage:assert_ele_contain:162 - 判断远元素//div[@class="goods-name"]，是否包含圆筒包信息
+2026-05-09 15:14:42.847 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:14:42.857 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:15:42.189 | INFO     | pageobject.homepage:click_login_link_method:24 - ------start 处理点击登录按钮的方法------
+2026-05-09 15:15:42.189 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:15:42.290 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[text()="登录"]------------
+2026-05-09 15:15:42.291 | INFO     | pageobject.homepage:click_login_link_method:28 - ------end 处理点击登录按钮的方法------
+2026-05-09 15:15:42.292 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:15:42.329 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入手机号/用户名"]------------
+2026-05-09 15:15:42.330 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:15:42.344 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//input[@placeholder="请输入密码"]------------
+2026-05-09 15:15:42.344 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:15:42.397 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//a[@class="login-button"]------------
+2026-05-09 15:15:43.429 | INFO     | pageobject.homepage:search_prod_method:31 - ------start 处理搜索商品方法------
+2026-05-09 15:15:43.429 | INFO     | common.basepage:fill_text:47 - ----------start 进入方法fill_text-------------
+2026-05-09 15:15:43.506 | INFO     | common.basepage:fill_text:55 - ------end 点击元素//div[@class="search-input-box"]/input------------
+2026-05-09 15:15:43.508 | INFO     | pageobject.homepage:search_prod_method:35 - 输入搜索商品圆筒包
+2026-05-09 15:15:43.508 | INFO     | pageobject.homepage:search_prod_method:38 - 点击搜索按钮//div[@class="search-msg"]/input
+2026-05-09 15:15:43.509 | INFO     | common.basepage:click_ele:30 - ----------start 进入方法click_ele-------------
+2026-05-09 15:15:43.565 | INFO     | common.basepage:click_ele:42 - ------end 点击元素//div[@class="search-msg"]/input------------
+2026-05-09 15:15:43.566 | INFO     | pageobject.homepage:search_prod_method:40 - ------end 处理搜索商品方法------
+2026-05-09 15:15:44.571 | INFO     | common.basepage:assert_ele_contain:149 - ----------start 进入方法assert_ele_contain-------------
+2026-05-09 15:15:44.586 | INFO     | common.basepage:assert_ele_contain:162 - 判断远元素//div[@class="goods-name"]，是否包含圆筒包信息
+2026-05-09 15:15:44.601 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
+2026-05-09 15:15:44.605 | INFO     | common.basepage:assert_ele_contain:166 - -------assert_ele_contain 断言通过-----------
